@@ -16,7 +16,7 @@ We only accept content that passes all three of these "gates":
 
 ## Annotation Format (Mandatory)
 Every external resource added to a chapter must follow this exact format:
-- **[Resource Title](URL)** — Author/Organization, Year
+- **[Resource Title](#)** — Author/Organization, Year
 - **What it is**: [One sentence describing the technical depth]
 - **Why it matters**: [One sentence explaining exactly what an engineer gains from reading it]
 
